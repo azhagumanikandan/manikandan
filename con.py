@@ -1,5 +1,5 @@
-n=int(input())
-k=list(map(int,input().split()))
-k.sort()
-for m in l:
-   print(m,end=" ")
+sou=int(input())
+final=list(map(int,input().split()[:sou]))
+final.sort()
+for j in final:
+  print(j,end=" "
