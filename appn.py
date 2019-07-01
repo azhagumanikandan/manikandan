@@ -1,2 +1,0 @@
-as=input()
-print(as+".")
