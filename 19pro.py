@@ -1,11 +1,13 @@
-kk=int(input())
-l2=[]
-l=[]
-for i in range(kk):
-    l=list(map(int,input().split()))
-    for j in range(len(l)):
-        l1.append(l[j])
-l2.sort()
-for i in range(len(l2)-1):
-    print(l1[i],end=' ')
-print(l2[len(l2)-1])
+aa=int(input())
+ll=[]
+dd=[]
+for i in range (0,aa):
+        bb=(input().split())
+        ll.append(bb)
+
+for j in range (0,len(ll)):
+    for k in range(len(ll[j])):
+            dd.append(int(ll[j][k]))
+dd.sort()
+for m in range (0,len(dd)):
+    print(dd[m],end=" ")
