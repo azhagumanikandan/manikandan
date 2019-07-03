@@ -1,14 +1,13 @@
 #azhagu
 nn=int(input())
-a=[]
-mm=bin(2**nn-1)[2::]
-l=len(mm)
-for i in range(0,2**nn):
-	pp=bin(i)[2::]
-	if len(pp)<l:
-		a.append([pp.count("1"),(l-len(pp))*"0"+pp])
-	else:
-		a.append([pp.count("1"),pp])
-a.sort()
-for i in range(0,len(l)):
-	print(a[i][1])
+nn1=2**nn
+l1=[]
+for i in range(0,nn1):
+    l=bin(i)[2:].zfill(nn)
+    if(len(l)<len(bin(2**nn-1)[2:])):
+        l1.append([l.count("1"),l])
+    else:
+        l1.append([l.count("1"),l])
+l1.sort()
+for i in range(len(l1)):
+    print(l1[i][1])
