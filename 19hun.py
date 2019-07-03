@@ -1,9 +1,13 @@
 #azhagu
-aa,bb=map(int,input().split())
-ff=[]
-for i in range(aa):
-    ss=set(map(int,input().split()))
-    ff.append(ss)
-#print(*ff)
-c=ss.intersection(*ff)
-print(*cc)
+axx=list(map(int,input().split()))
+nn=int(axx[0])
+kk=int(axx[1])
+aa=[]
+for i in range(0,nn):
+    aa.append(input().split())
+cc=set(aa[0])
+for i in aa:
+    cc=cc & set(i)
+dd=list(cc)
+dd.sort()
+print(*dd)
