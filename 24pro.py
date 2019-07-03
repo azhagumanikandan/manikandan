@@ -1,9 +1,9 @@
 #azhagu
 oo=int(input())
 ww=[]
-k=bin(2**o-1)[2::]
+k=bin(2**oo-1)[2::]
 lmm=len(k)
-for i in range(0,2**o):
+for i in range(0,2**oo):
     ff=bin(i)[2::]
     if len(ff)<lmm:
         ww.append([f.count("1"),(lmm-len(f))*"0"+f])
