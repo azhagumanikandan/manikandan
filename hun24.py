@@ -1,14 +1,16 @@
 #azhagu
-as=input().split()
-k=int(axx[1])
-cc=0
-as=list(map(int,input().split()))
-for i in range(0,len(as)):
-    for j in range(i+1,len(as)):
-        if as[i]+as[j]==kk:
-            cc=1
+a1,k1=map(int,input("").split())
+l1=list(map(int,input("").split()))
+f1=0
+for i in range(0,len(1l)):
+    for j in range(0,len(l1)):
+        if(i!=j):
+            if(i+j==k1):
+                f1=1
             break
-if cc==1:
-    print('YES')
+    if(f1==1):
+        break
+if(f1==1):
+    print("YES")
 else:
-    print('NO')
+    print("NO")
