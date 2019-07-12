@@ -1,12 +1,11 @@
 #azhagu
-n1 = int(input())
-power = list(map(int,input().split()))
-countt1 = 0
-for i in range(len1(power)-2):
-    for j in range(i+1,len1(power)-1):
-        for k in range(j+1,len1(power)):
-            if power[i] > power[j]:
-                if power[j] > power[k]:
-                    countt1 += 1
-
-print(countt1)
+p1 = int(input())
+q1 = [ int(x) for x in input().split()]
+p1 = len(q1)
+u1 = 0
+for i in range(0,p1-2):
+    for j in range(i+1, p1-1):
+        for k in range(j+1, p1):
+            if q1[i] > q1[j] > q1[k] :
+                u1 =u1+ 1
+print(u1)
