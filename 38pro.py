@@ -1,9 +1,9 @@
 #azhagu
-n,n=map(int,input().split())
-li1=list(map(int,input().split()))
-count=0
-for i in li1:
-	if(i<=(5-n2)):
-		count+=1
-ress=count//3
-print(ress)
+ni,ki=map(int,input().split())
+l1=list(map(int,input().split()))
+c1=0
+for i in l1:
+	if i<=(5-kin):
+		c1+=1
+g1=c1//3
+print(g1)
