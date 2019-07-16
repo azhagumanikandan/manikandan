@@ -1,9 +1,16 @@
 #azhagu
-stt=input()
-aa=''
-for i in range(0,len(stt)-1,2):
-  if(int(stt[i+1])%2==0):
-    aa+=st[i]*int(stt[i+1])
+rb=input()
+
+t=''
+
+for i in range(0,len(rb)-1,2):
+  
+  if int(rb[i+1])%2==0:
+    
+    t+=rb[i]*int(rb[i+1])
+    
   else:
-    aa+=stt[i]+stt[i+1]
-print(aa)
+    
+    t+=rb[i]+rb[i+1]
+    
+print(t)
