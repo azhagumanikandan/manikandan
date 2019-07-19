@@ -1,14 +1,14 @@
 #azhagu
-n1=int(input())
+nn=int(input())
 
-if(n1==1 or n1==2):
-
-    print(n1)
+if(nn==1 or nn==2):
     
-elif(n%2==0):
-
-    print(n1+1)
+    print(nn)
+    
+elif(nn%2==0):
+    
+    print(nn+1)
     
 else:
-
-    print(n1)
+    
+    print(nn)
