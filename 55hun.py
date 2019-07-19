@@ -1,9 +1,9 @@
 #azhagu
 
-a1,a2=map(int,input().split())
+n1,n2=map(int,input().split())
 
-lii=[str(i) for i in input().split()]
+li=[str(i) for i in input().split()]
 
-aa=lii[a2:]+li[:a2]
+a=li[n2:]+li[:n2]
 
-print(' '.join(aa))
+print(' '.join(a))
