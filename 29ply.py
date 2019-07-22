@@ -2,14 +2,16 @@
 
 import math
 
-a,b=map(int,input().split())
-
 count=0
 
-for i in range(a,b+1):
+n,e=map(int,input().split())
 
-    s=math.sqrt(i)
+for j in range(0,e):    
     
-    if math.sqrt(i)==int(s):
-    
-        count+=1
+    for i in range(n,e+1):
+        
+        if(math.sqrt(i)==j):
+            
+            count=count+1
+            
+print(count)
